@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>FitnessX | Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="Assets/favicon.png" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="CSS/style.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">FitnessX</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navMenu"
+					aria-controls="navMenu"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navMenu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="courses.html">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="membership.html">Membership</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="trainers.html">Trainers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="account.html">Account</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main class="flex-grow-1 pt-5 bg-light">
+			<section class="hero d-flex align-items-center text-center">
+				<div class="container">
+					<h1 class="display-4">
+						Train Smarter with <span class="">FitnessX</span>
+					</h1>
+					<p class="lead">Online fitness courses designed for all abilities</p>
+					<a href="courses.html" class="btn btn-primary btn-lg me-2">
+						View Courses
+					</a>
+					<a href="membership.html" class="btn btn-outline-light btn-lg">
+						Join Now
+					</a>
+				</div>
+			</section>
+
+			<section class="py-5">
+				<div class="container">
+					<div class="row text-center g-4">
+						<div class="col-md-4">
+							<img src="Assets/Icon1.png" />
+							<h5>Expert Trainers</h5>
+							<p>Certified professionals guiding every workout.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="Assets/Icon2.png" />
+
+							<h5>Flexible Training</h5>
+							<p>Train anytime, anywhere at your own pace.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="Assets/Icon3.png" />
+							<h5>All Fitness Levels</h5>
+							<p>Beginner to advanced programmes available.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container my-5">
+				<h2 class="text-center mb-4">What Our Clients Say</h2>
+
+				<div
+					id="testimonialCarousel"
+					class="carousel slide"
+					data-ride="carousel"
+				>
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li
+							data-target="#testimonialCarousel"
+							data-slide-to="0"
+							class="active"
+						></li>
+						<li data-target="#testimonialCarousel" data-slide-to="1"></li>
+						<li data-target="#testimonialCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="d-flex flex-column align-items-center text-center">
+								<img
+									src="Assets/ClientIcon.png"
+									class="rounded-circle mb-3"
+									style="width: 80px; height: 80px"
+									alt="Client 1"
+								/>
+								<p class="mb-1">
+									“FitnessX transformed my fitness journey. The trainers are
+									amazing!”
+								</p>
+								<small class="text-muted">– Jack Logue</small>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<div class="d-flex flex-column align-items-center text-center">
+								<img
+									src="Assets/ClientIcon.png"
+									class="rounded-circle mb-3"
+									style="width: 80px; height: 80px"
+									alt="Client 2"
+								/>
+								<p class="mb-1">
+									“I love the variety of courses. Highly recommended!”
+								</p>
+								<small class="text-muted">– Sarah Simpson</small>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<div class="d-flex flex-column align-items-center text-center">
+								<img
+									src="Assets/ClientIcon.png"
+									class="rounded-circle mb-3"
+									style="width: 80px; height: 80px"
+									alt="Client 3"
+								/>
+								<p class="mb-1">
+									“Friendly staff, great environment, and excellent results!”
+								</p>
+								<small class="text-muted">– Alex Anderson</small>
+							</div>
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a
+						class="carousel-control-prev"
+						href="#testimonialCarousel"
+						role="button"
+						data-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a
+						class="carousel-control-next"
+						href="#testimonialCarousel"
+						role="button"
+						data-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-dark text-white pt-5 pb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mb-4 text-center">
+						<h5 class="text-uppercase mb-3">Quick Links</h5>
+						<ul class="list-unstyled">
+							<li><a href="index.html" class="text-white">Home</a></li>
+							<li><a href="courses.html" class="text-white">Courses</a></li>
+							<li>
+								<a href="membership.html" class="text-white">Membership</a>
+							</li>
+							<li><a href="trainers.html" class="text-white">Trainers</a></li>
+							<li><a href="contact.html" class="text-white">Contact</a></li>
+							<li><a href="account.html" class="text-white">Account</a></li>
+						</ul>
+					</div>
+
+					<!-- About -->
+					<div class="col-md-4 mb-4 text-center">
+						<h5 class="mb-3">FitnessX</h5>
+						<p>
+							Your ultimate fitness hub! Join our courses, meet expert trainers,
+							and achieve your goals.
+						</p>
+					</div>
+
+					<!-- Contact & Social -->
+					<div class="col-md-4 mb-4">
+						<h5 class="text-uppercase mb-3">Contact Us</h5>
+						<p class="mb-1"><strong>Email:</strong> support@fitnessx.com</p>
+						<p class="mb-1"><strong>Phone:</strong> +1 234 567 890</p>
+						<div class="mt-2">
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-facebook-f"></i
+							></a>
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-twitter"></i
+							></a>
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-instagram"></i
+							></a>
+							<a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<hr class="bg-light" />
+
+				<div class="text-center small">
+					<p class="mb-0">
+						© 2026 FitnessX | School Project. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

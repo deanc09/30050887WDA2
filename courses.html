@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>FitnessX | Courses</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="Assets/favicon.png" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="CSS/style.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">FitnessX</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navMenu"
+					aria-controls="navMenu"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navMenu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="courses.html">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="membership.html">Membership</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="trainers.html">Trainers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="account.html">Account</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+		<main class="flex-grow-1 mt-5 bg-light">
+			<div class="container mt-5">
+				<h1 class="text-center mb-5">Our Courses</h1>
+
+				<div class="row">
+					<div class="col-md-4 d-flex">
+						<div class="card mb-4 h-100 w-100">
+							<img
+								src="Assets/course1.jpg"
+								class="card-img-top course-img"
+								alt="Course 1"
+							/>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Introduction to Weightlifting</h5>
+								<p class="card-text">
+									Learn the basics of weightlifting, form, and techniques to get
+									started with your fitness journey.
+								</p>
+								<a
+									href="#"
+									class="btn btn-primary mt-auto"
+									data-toggle="modal"
+									data-target="#modalCourse1"
+									>Learn More</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card mb-4 h-100 w-100">
+							<img
+								src="Assets/course2.jpg"
+								class="card-img-top course-img"
+								alt="Course 2"
+							/>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Yoga for Beginners</h5>
+								<p class="card-text">
+									A gentle introduction to yoga, focusing on flexibility,
+									breathing, and mindfulness techniques.
+								</p>
+								<a
+									href="#"
+									class="btn btn-primary mt-auto"
+									data-toggle="modal"
+									data-target="#modalCourse2"
+									>Learn More</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card mb-4 h-100 w-100">
+							<img
+								src="Assets/course3.jpg"
+								class="card-img-top course-img"
+								alt="Course 3"
+							/>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Cardio Training</h5>
+								<p class="card-text">
+									A high-intensity cardio workout that improves endurance and
+									promotes fat loss through various exercises.
+								</p>
+								<a
+									href="#"
+									class="btn btn-primary mt-auto"
+									data-toggle="modal"
+									data-target="#modalCourse3"
+									>Learn More</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row py-4">
+					<div class="col-md-4 d-flex">
+						<div class="card mb-4 h-100 w-100">
+							<img
+								src="Assets/course4.jpg"
+								class="card-img-top course-img"
+								alt="Course 4"
+							/>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Advanced Weight Training</h5>
+								<p class="card-text">
+									For those who have mastered the basics, this course will teach
+									you advanced techniques to build muscle.
+								</p>
+								<a
+									href="#"
+									class="btn btn-primary mt-auto"
+									data-toggle="modal"
+									data-target="#modalCourse4"
+									>Learn More</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card mb-4 h-100 w-100">
+							<img
+								src="Assets/course5.jpg"
+								class="card-img-top course-img"
+								alt="Course 5"
+							/>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Pilates for Strength</h5>
+								<p class="card-text">
+									Improve core strength and posture with a series of low-impact
+									exercises that strengthen muscles and improve flexibility.
+								</p>
+								<a
+									href="#"
+									class="btn btn-primary mt-auto"
+									data-toggle="modal"
+									data-target="#modalCourse5"
+									>Learn More</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card mb-4 h-100 w-100">
+							<img
+								src="Assets/course6.jpg"
+								class="card-img-top course-img"
+								alt="Course 6"
+							/>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Nutrition for Fitness</h5>
+								<p class="card-text">
+									Learn how to fuel your body with proper nutrition to maximize
+									your fitness results and maintain energy throughout the day.
+								</p>
+								<a
+									href="#"
+									class="btn btn-primary mt-auto"
+									data-toggle="modal"
+									data-target="#modalCourse6"
+									>Learn More</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="modal fade"
+					id="modalCourse1"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="modalCourse1Label"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalCourse1Label">
+									Introduction to Weightlifting
+								</h5>
+								<button
+									type="button"
+									class="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>
+									Learn the basics of weightlifting, proper form, techniques,
+									and how to start incorporating weight training into your
+									fitness routine.
+								</p>
+								<ul>
+									<li>Duration: 6 Weeks</li>
+									<li>Price: $199</li>
+									<li>Level: Beginner</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-dismiss="modal"
+								>
+									Close
+								</button>
+								<a href="account.html" class="btn btn-primary">Enroll Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="modal fade"
+					id="modalCourse2"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="modalCourse2Label"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalCourse2Label">
+									Yoga for Beginners
+								</h5>
+								<button
+									type="button"
+									class="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>
+									This course is designed to teach the fundamentals of yoga,
+									with a focus on gentle stretches and mindfulness practices.
+								</p>
+								<ul>
+									<li>Duration: 8 Weeks</li>
+									<li>Price: $179</li>
+									<li>Level: Beginner</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-dismiss="modal"
+								>
+									Close
+								</button>
+								<a href="account.html" class="btn btn-primary">Enroll Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="modal fade"
+					id="modalCourse3"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="modalCourse3Label"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalCourse3Label">
+									Cardio Training
+								</h5>
+								<button
+									type="button"
+									class="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>
+									This course focuses on high-intensity cardio exercises
+									designed to increase endurance and promote fat burning.
+								</p>
+								<ul>
+									<li>Duration: 6 Weeks</li>
+									<li>Price: $149</li>
+									<li>Level: Intermediate</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-dismiss="modal"
+								>
+									Close
+								</button>
+								<a href="account.html" class="btn btn-primary">Enroll Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="modal fade"
+					id="modalCourse4"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="modalCourse4Label"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalCourse4Label">
+									Advanced Weight Training
+								</h5>
+								<button
+									type="button"
+									class="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>
+									For those who have mastered the basics, this course will teach
+									you advanced techniques to build muscle and increase strength.
+								</p>
+								<ul>
+									<li>Duration: 8 Weeks</li>
+									<li>Price: $249</li>
+									<li>Level: Advanced</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-dismiss="modal"
+								>
+									Close
+								</button>
+								<a href="account.html" class="btn btn-primary">Enroll Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="modal fade"
+					id="modalCourse5"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="modalCourse5Label"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalCourse5Label">
+									Pilates for Strength
+								</h5>
+								<button
+									type="button"
+									class="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>
+									This course focuses on strengthening core muscles with pilates
+									techniques, improving both posture and flexibility.
+								</p>
+								<ul>
+									<li>Duration: 6 Weeks</li>
+									<li>Price: $169</li>
+									<li>Level: Intermediate</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-dismiss="modal"
+								>
+									Close
+								</button>
+								<a href="account.html" class="btn btn-primary">Enroll Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="modal fade"
+					id="modalCourse6"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="modalCourse6Label"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalCourse6Label">
+									Nutrition for Fitness
+								</h5>
+								<button
+									type="button"
+									class="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>
+									Learn how to fuel your body with proper nutrition to maximize
+									your fitness results and maintain energy throughout the day.
+								</p>
+								<ul>
+									<li>Duration: 4 Weeks</li>
+									<li>Price: $129</li>
+									<li>Level: Beginner</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-secondary"
+									data-dismiss="modal"
+								>
+									Close
+								</button>
+								<a href="account.html" class="btn btn-primary">Enroll Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-dark text-white pt-5 pb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mb-4 text-center">
+						<h5 class="text-uppercase mb-3">Quick Links</h5>
+						<ul class="list-unstyled">
+							<li><a href="index.html" class="text-white">Home</a></li>
+							<li><a href="courses.html" class="text-white">Courses</a></li>
+							<li>
+								<a href="membership.html" class="text-white">Membership</a>
+							</li>
+							<li><a href="trainers.html" class="text-white">Trainers</a></li>
+							<li><a href="contact.html" class="text-white">Contact</a></li>
+							<li><a href="account.html" class="text-white">Account</a></li>
+						</ul>
+					</div>
+
+					<!-- About -->
+					<div class="col-md-4 mb-4 text-center">
+						<h5 class="mb-3">FitnessX</h5>
+						<p>
+							Your ultimate fitness hub! Join our courses, meet expert trainers,
+							and achieve your goals.
+						</p>
+					</div>
+
+					<!-- Contact & Social -->
+					<div class="col-md-4 mb-4">
+						<h5 class="text-uppercase mb-3">Contact Us</h5>
+						<p class="mb-1"><strong>Email:</strong> support@fitnessx.com</p>
+						<p class="mb-1"><strong>Phone:</strong> +1 234 567 890</p>
+						<div class="mt-2">
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-facebook-f"></i
+							></a>
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-twitter"></i
+							></a>
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-instagram"></i
+							></a>
+							<a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<hr class="bg-light" />
+
+				<div class="text-center small">
+					<p class="mb-0">
+						© 2026 FitnessX | School Project. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

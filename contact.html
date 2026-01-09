@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>FitnessX | Contact Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="Assets/Icon1.png" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="CSS/style.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">FitnessX</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navMenu"
+					aria-controls="navMenu"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navMenu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="courses.html">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="membership.html">Membership</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="trainers.html">Trainers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="account.html">Account</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main class="flex-grow-1 mt-5 contact-page">
+			<div class="container mt-5">
+				<h1 class="text-center mb-5">Contact Us</h1>
+
+				<div class="row">
+					<div class="col-md-6 offset-md-3">
+						<form class="contact-form" id="contact-form">
+							<div class="form-group">
+								<label for="name">Full Name</label>
+								<input
+									type="text"
+									class="form-control"
+									id="name"
+									name="name"
+									placeholder="Enter your full name"
+									required
+								/>
+							</div>
+
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input
+									type="email"
+									class="form-control"
+									id="email"
+									name="email"
+									placeholder="Enter your email"
+									required
+								/>
+							</div>
+
+							<div class="form-group">
+								<label for="trainer">Select Trainer</label>
+								<select
+									class="form-control contact-select"
+									id="trainer"
+									name="trainer"
+									required
+								>
+									<option value="any" selected>Any</option>
+									<option value="john-doe">John Doe</option>
+									<option value="jane-smith">Jane Smith</option>
+									<option value="mike-johnson">Mike Johnson</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea
+									class="form-control"
+									id="message"
+									name="message"
+									rows="5"
+									placeholder="Your message"
+									required
+								></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-primary btn-block">
+								Send Message
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-dark text-white pt-5 pb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mb-4 text-center">
+						<h5 class="text-uppercase mb-3">Quick Links</h5>
+						<ul class="list-unstyled">
+							<li><a href="index.html" class="text-white">Home</a></li>
+							<li><a href="courses.html" class="text-white">Courses</a></li>
+							<li>
+								<a href="membership.html" class="text-white">Membership</a>
+							</li>
+							<li><a href="trainers.html" class="text-white">Trainers</a></li>
+							<li><a href="contact.html" class="text-white">Contact</a></li>
+							<li><a href="account.html" class="text-white">Account</a></li>
+						</ul>
+					</div>
+
+					<!-- About -->
+					<div class="col-md-4 mb-4 text-center">
+						<h5 class="mb-3">FitnessX</h5>
+						<p>
+							Your ultimate fitness hub! Join our courses, meet expert trainers,
+							and achieve your goals.
+						</p>
+					</div>
+
+					<!-- Contact & Social -->
+					<div class="col-md-4 mb-4">
+						<h5 class="text-uppercase mb-3">Contact Us</h5>
+						<p class="mb-1"><strong>Email:</strong> support@fitnessx.com</p>
+						<p class="mb-1"><strong>Phone:</strong> +1 234 567 890</p>
+						<div class="mt-2">
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-facebook-f"></i
+							></a>
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-twitter"></i
+							></a>
+							<a href="#" class="text-white mr-3"
+								><i class="fab fa-instagram"></i
+							></a>
+							<a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<hr class="bg-light" />
+
+				<div class="text-center small">
+					<p class="mb-0">
+						© 2026 FitnessX | School Project. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<script src="JS/contactScript.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>
